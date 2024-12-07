@@ -1,0 +1,26 @@
+body{
+    background-image:url(japan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-position: center; */
+    /* display: flex;
+    flex-direction:column;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height:100vh;
+}
+.box{
+    /* border: ridge 4px blueviolet; */
+    /* padding: 2%; */
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}

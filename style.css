@@ -1,0 +1,48 @@
+body{
+    background-color: chocolate;
+    margin-left: 5px;
+    border: ridge red 1px;
+    display: flow-root;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: ridge;
+    border-top: ridge;
+    border-width: 1px;
+}
+pre{
+    color:darkred;
+}  
+#pre1{
+    color: white;
+    overflow: scroll;
+}
+#pre3{
+    overflow:scroll;
+}
+h2{
+    text-shadow: 2px 2px 5px black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px red ridge;
+    box-shadow: 2px 2px 5px;
+}
+#box1{
+    background-color: tomato ;
+    margin:auto ;
+}
+#box2{
+    background-color: brown;
+}
+#img1{
+    float:left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#img2{
+    float: right;
+    margin-left:20px ;
+    margin-right: 10px;
+}

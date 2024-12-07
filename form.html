@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <!--enctype because of large files-->
+    <form action="index.php" method="post" enctype="multipart/form-data">
         <label for="username" >username:</label>
         <input type="text" id="username" placeholder="minion" required><br>
         <label for="password">password:</label>
@@ -27,7 +28,9 @@
         <input type="checkbox" id="subs" required><br>
         <label for="comment">comment:</label>
         <textarea id="comment"></textarea><br>
-        <input type="submit" style="background-color: tomato; color: white; border-radius: 10px;"><br>
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+        <input type="submit"><br>
         <input type="reset">
     </form>
 </body>
